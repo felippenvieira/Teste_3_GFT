@@ -73,8 +73,8 @@ Console.WriteLine($"Maior que 30: {abvThirtyAverage.ToString("F2")}");
 
 public class Person
 {
-    public int Age { get; set; }
-    public double Weight { get; set; }
+    public int Age { get; init; }
+    public double Weight { get; init; }
 
     public Person(int age, double weight)
     {
